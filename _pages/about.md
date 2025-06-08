@@ -27,7 +27,7 @@ I am a second-year master student at the [Department of Computer Science and Eng
 
 My research interests lie in LLM/VLM/DiT model compression and acceleration, including techniques such as binarization and post-training quantization. Additionally, I focus on synthetic data augmentation and AI-generated content (AIGC), encompassing text-to-image and text-to-video generative models.
 
-I interned at [Amazon ASAIL](https://www.amazonaws.cn/ailab/), [Sony AI](https://ai.sony/projects/ai-ethics/), and [Xiaohongshu](https://job.xiaohongshu.com/).
+I interned at [Amazon ASAIL](https://www.amazonaws.cn/ailab/), [Sony AI](https://ai.sony/projects/ai-ethics/), [Xiaohongshu](https://job.xiaohongshu.com/), and [Bytedance Seed-LLM](https://seed.bytedance.com/zh/direction/llm).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
