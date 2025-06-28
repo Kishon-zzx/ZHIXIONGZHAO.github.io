@@ -264,7 +264,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Li]
+  last_name: [Li, Li<sup>†</sup>]
   first_name: [Zhiteng]
 
   style: apa
