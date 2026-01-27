@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-3 paper accepted to **ICLR 2026**.
+3 papers accepted to **ICLR 2026**.

@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year master student at the [Department of Computer Science and Engineering (CSE)](https://www.cs.sjtu.edu.cn/en/), [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/), advised by Prof. [Yulun Zhang](https://yulunzhang.com/) and Prof. [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/). Previously, I received my B.E. degree from SJTU in 2023.
+I am a third-year master student at the [Department of Computer Science and Engineering (CSE)](https://www.cs.sjtu.edu.cn/en/), [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/), advised by Prof. [Yulun Zhang](https://yulunzhang.com/) and Prof. [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/). Previously, I received my B.E. degree from SJTU in 2023.
 
 My research interests lie in LLM/VLM/DiT model compression and acceleration, including techniques such as binarization and post-training quantization. Additionally, I focus on synthetic data augmentation and AI-generated content (AIGC), encompassing text-to-image and text-to-video generative models.
 
