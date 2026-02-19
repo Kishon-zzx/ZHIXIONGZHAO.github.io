@@ -441,6 +441,40 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Social (top - in header)
+.social-small {
+  .contact-icons {
+    font-size: 1.2rem;
+
+    a {
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover {
+        text-decoration: none;
+
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+
+    // Specifically target WeChat icon to ensure theme color is applied
+    // Font Awesome brands icons sometimes have default colors that need to be overridden
+    #WeChatBtn i.fa-weixin::before,
+    #WeChatBtn i.fa-brands.fa-weixin::before {
+      color: var(--global-text-color) !important;
+    }
+
+    #WeChatBtn:hover i.fa-weixin::before,
+    #WeChatBtn:hover i.fa-brands.fa-weixin::before {
+      color: var(--global-theme-color) !important;
+    }
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
