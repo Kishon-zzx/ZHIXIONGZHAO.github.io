@@ -25,7 +25,7 @@ latest_posts:
 
 I am a second-year master student at the [School of Electrical and Electronic Engineering (EEE)](https://www.ntu.edu.sg/eee/), [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/), advised by Prof. [Kim Tae Hyoung](https://sites.google.com/view/tonykimntu). I am currently an intern at [HOUMO.AI](https://houmoai.com/).
 
-My research interests lie in Efficient AI, particularly in hardware-software co-design, model compression, and efficient inference acceleration such as quantization. I strongly believe that “compression is intelligence.”
+My research interests lie in Efficient AI, particularly in hardware-software co-design, model compression, and efficient inference acceleration such as quantization. I strongly believe that "compression is intelligence."
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->

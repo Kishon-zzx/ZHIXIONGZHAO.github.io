@@ -153,6 +153,10 @@
         {%- capture entrytype -%}<em>In International Conference on Learning Representations</em> {%- endcapture -%}
       {%- elsif entry.booktitle == "ICML" -%}
         {%- capture entrytype -%}<em>In International Conference on Machine Learning</em> {%- endcapture -%}
+      {%- elsif entry.booktitle == "AAAI" -%}
+        {%- capture entrytype -%}<em>In Association for the Advancement of Artificial Intelligence</em> {%- endcapture -%}
+      {%- elsif entry.booktitle == "ICCAD" -%}
+        {%- capture entrytype -%}<em>In International Conference on Computer-Aided Design</em> {%- endcapture -%}  
       {%- elsif entry.booktitle == "CVPRW" -%}
         {%- capture entrytype -%}<em>In Computer Vision and Pattern Recognition Workshops</em> {%- endcapture -%}
       {%- elsif entry.booktitle == "arXiv" -%}
