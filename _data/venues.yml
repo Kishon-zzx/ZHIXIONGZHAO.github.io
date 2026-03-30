@@ -1,12 +1,39 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"NeurIPS":
+  color: "#9c27b0" # 深紫色 (经典的高级学术感)
+  url: "https://neurips.cc/"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICCV":
+  color: "#005b96" # 琉璃蓝 (沉稳的计算机视觉蓝)
+  url: "https://thecvf.com/"
 
-"Vision":
-  color: "#009f36"
+"CVPR":
+  color: "#2196f3" # 亮蓝色 (清晰、现代感强)
+  url: "https://cvpr.thecvf.com/"
+
+"ECCV":
+  color: "#b71c1c" # 深红色 (欧洲风范的深邃红)
+  url: "https://eccv.ecva.net/"
+
+"ICLR":
+  color: "#4caf50" # 翡翠绿 (深度学习的活力绿)
+  url: "https://iclr.cc/"
+
+"ICML":
+  color: "#e91e63" # 树莓粉 (抢眼且有科技感)
+  url: "https://icml.cc/"
+
+"AAAI":
+  color: "#ff5722" # 亮橙色 (充满活力与创新)
+  url: "https://aaai.org/"
+
+"ICCAD":
+  color: "#00897b" # 青色/蓝绿色 (区分于纯软件，带有工程感)
+  url: "https://iccad.com/"
+
+"CVPRW":
+  color: "#64b5f6" # 浅蓝色 (与 CVPR 同色系但略浅，表示 Workshop)
+  url: "https://cvpr.thecvf.com/"
 
 "arXiv":
-  color: "#00ab37"
+  color: "#b31b1b" # 康奈尔红 (这是 arXiv 官方标志性的经典红色)
+  url: "https://arxiv.org/"
