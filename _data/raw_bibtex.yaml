@@ -1,0 +1,32 @@
+xu2026kbvqmoe: |
+  @misc{xu2026kbvqmoe,
+    title={KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models},
+    author={Zukang Xu and Zhixiong Zhao and Xing Hu and Zhixuan Chen and Dawei Yang},
+    year={2026},
+    eprint={2602.11184},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2602.11184}
+  }
+
+zhao2025specquant: |
+  @misc{zhao2025specquant,
+    title={SpecQuant: Spectral Decomposition and Adaptive Truncation for Ultra-Low-Bit LLMs Quantization},
+    author={Zhixiong Zhao and Fangxin Liu and Junjie Wang and Chenyang Guan and Zongwu Wang and Li Jiang and Haibing Guan},
+    year={2025},
+    eprint={2511.11663},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2511.11663}
+  }
+
+zhao2025quark: |
+  @misc{zhao2026quarkquantizationenabledcircuitsharing,
+      title={QUARK: Quantization-Enabled Circuit Sharing for Transformer Acceleration by Exploiting Common Patterns in Nonlinear Operations}, 
+      author={Zhixiong Zhao and Haomin Li and Fangxin Liu and Yuncheng Lu and Zongwu Wang and Tao Yang and Li Jiang and Haibing Guan},
+      year={2026},
+      eprint={2511.06767},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2511.06767}, 
+  }

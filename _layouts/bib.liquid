@@ -365,10 +365,8 @@
     {% if entry.bibtex_show %}
       <div class="bibtex hidden">
         {% highlight bibtex %}
-        {%- if entry.custom_bib -%}
-          {%- assign open_brace = "{" -%}
-          {%- assign close_brace = "}" -%}
-          {{- entry.custom_bib | replace: '@@', '@' | replace: '[[', open_brace | replace: ']]', close_brace -}}
+        {%- if site.data.raw_bibtex[entry.key] -%}
+          {{- site.data.raw_bibtex[entry.key] -}}
         {%- else -%}
           {{- entry.bibtex | hideCustomBibtex | replace: '†', '' | replace: '*', '' -}}
         {%- endif -%}
