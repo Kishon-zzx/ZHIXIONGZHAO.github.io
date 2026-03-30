@@ -219,9 +219,9 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" style="text-transform: none; font-size: 0.85rem; padding: 0.35rem 0.7rem;">Paper</a>
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" style="text-transform: none; font-size: 0.75rem; padding: 0.2rem 0.5rem;">Paper</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" style="text-transform: none; font-size: 0.85rem; padding: 0.35rem 0.7rem;">Paper</a>
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" style="text-transform: none; font-size: 0.75rem; padding: 0.2rem 0.5rem;">Paper</a>
         {% endif %}
       {% endif %}
       {% if entry.supp %}
@@ -240,10 +240,10 @@
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
       {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" style="text-transform: none; font-size: 0.85rem; padding: 0.35rem 0.7rem;">Code</a>
+        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" style="text-transform: none; font-size: 0.75rem; padding: 0.2rem 0.5rem;">Code</a>
       {% endif %}
       {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button" style="text-transform: none; font-size: 0.85rem; padding: 0.35rem 0.7rem;">Cite</a>
+        <a class="bibtex btn btn-sm z-depth-0" role="button" style="text-transform: none; font-size: 0.75rem; padding: 0.2rem 0.5rem;">Cite</a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
