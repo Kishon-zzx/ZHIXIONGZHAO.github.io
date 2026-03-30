@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://kishon-zzx.github.io/ZHIXIONGZHAO.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://kishon-zzx.github.io/sitemap.xml
