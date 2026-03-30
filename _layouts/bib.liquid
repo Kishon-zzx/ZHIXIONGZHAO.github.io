@@ -366,7 +366,9 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {%- if entry.custom_bib -%}
-          {{- entry.custom_bib | replace: '@@', '@' | replace: '[[', '{' | replace: ']]', '}' -}}
+          {%- assign open_brace = "{" -%}
+          {%- assign close_brace = "}" -%}
+          {{- entry.custom_bib | replace: '@@', '@' | replace: '[[', open_brace | replace: ']]', close_brace -}}
         {%- else -%}
           {{- entry.bibtex | hideCustomBibtex | replace: '†', '' | replace: '*', '' -}}
         {%- endif -%}
