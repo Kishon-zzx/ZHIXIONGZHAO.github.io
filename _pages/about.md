@@ -23,11 +23,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a third-year master student at the [Department of Computer Science and Engineering (CSE)](https://www.cs.sjtu.edu.cn/en/), [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/), advised by Prof. [Yulun Zhang](https://yulunzhang.com/) and Prof. [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/). Previously, I received my B.E. degree from SJTU in 2023.
+I am a second-year master student at the [School of Electrical and Electronic Engineering (EEE)](https://www.ntu.edu.sg/eee/), [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/), advised by Prof. [Kim Tae Hyoung](https://sites.google.com/view/tonykimntu). I am currently an intern at [HOUMO.AI](https://houmoai.com/).
 
-My research interests lie in LLM pretraining and scaling, image/video generation, model compression and inference acceleration (e.g., Quantization), and data synthesis.
+My research interests lie in Efficient AI, particularly in hardware-software co-design, model compression, and efficient inference acceleration such as quantization. I strongly believe that “compression is intelligence.”
 
-I interned at [Amazon ASAIL](https://www.amazonaws.cn/ailab/), [Sony AI](https://ai.sony/projects/ai-ethics/), [Xiaohongshu](https://job.xiaohongshu.com/), and [Bytedance Seed-LLM](https://seed.bytedance.com/zh/direction/llm).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 

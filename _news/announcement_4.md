@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-06-26
+date: 2026-01-26
 inline: true
 related_posts: false
 ---
 
-1 paper accepted to **ICCV 2025**.
+Our paper [KBVQ-MoE](https://arxiv.org/abs/2602.11184) is accepted by **ICLR 2026**.

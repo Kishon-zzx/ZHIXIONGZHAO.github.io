@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-04-22
+date: 2025-05-27
 inline: true
 related_posts: false
 ---
 
-I will join [ByteDance Seed-LLM Team](https://seed.bytedance.com/zh/direction/llm) as a research intern.
+I will join [HOUMO.AI](https://houmoai.com/) as a research intern.
