@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [SpecQuant](https://arxiv.org/abs/2511.11663) is accepted by **AAAI 2026**.
+Our paper [SpecQuant](https://arxiv.org/abs/2511.11663) is accepted by **AAAI 2026**. 🎉🎉🎉

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [KBVQ-MoE](https://arxiv.org/abs/2602.11184) is accepted by **ICLR 2026**.
+Our paper [KBVQ-MoE](https://arxiv.org/abs/2602.11184) is accepted by **ICLR 2026**. 🎉🎉🎉

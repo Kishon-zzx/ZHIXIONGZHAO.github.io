@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will join [HOUMO.AI](https://houmoai.com/) as a research intern.
+I will join [HOUMO.AI](https://houmoai.com/) as a research intern. 🚀🚀🚀

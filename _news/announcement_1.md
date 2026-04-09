@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [QUARK](https://arxiv.org/abs/2511.06767) is accepted by **ICCAD 2025**.
+Our paper [QUARK](https://arxiv.org/abs/2511.06767) is accepted by **ICCAD 2025**. 🎉🎉🎉
