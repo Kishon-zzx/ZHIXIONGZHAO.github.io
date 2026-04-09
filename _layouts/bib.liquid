@@ -163,11 +163,15 @@
       {%- elsif entry.booktitle == "AAAI" -%}
         {%- capture entrytype -%}<em>In Association for the Advancement of Artificial Intelligence</em>{%- endcapture -%}
         {%- assign conf_tags = " <small>(Top Conf. in AI)</small> <strong>CCF-A</strong>" -%}
+      {%- elsif entry.booktitle == "ACL-Main" -%}
+        {%- capture entrytype -%}<em>In Annual Meeting of the Association for Computational Linguistics</em>{%- endcapture -%}
+        {%- assign conf_tags = " <small>(Top Conf. in NLP)</small> <strong>CCF-A</strong>" -%}
+      {%- elsif entry.booktitle == "ACL-Findings" -%}
+        {%- capture entrytype -%}<em>In Findings of the Association for Computational Linguistics</em>{%- endcapture -%}
+        {%- assign conf_tags = " <small>(Top Conf. in NLP)</small>" -%}
       {%- elsif entry.booktitle == "ICCAD" -%}
         {%- capture entrytype -%}<em>In International Conference on Computer-Aided Design</em>{%- endcapture -%}
         {%- assign conf_tags = " <small>(Top Conf. in EDA)</small> <strong>CCF-B</strong>" -%}  
-      {%- elsif entry.booktitle == "CVPRW" -%}
-        {%- capture entrytype -%}<em>In Computer Vision and Pattern Recognition Workshops</em>{%- endcapture -%}
       {%- elsif entry.booktitle == "arXiv" -%}
         {%- capture entrytype -%}<em>{{entry.booktitle}}</em>{%- endcapture -%}
       {%- else -%}

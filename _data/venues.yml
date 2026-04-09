@@ -30,9 +30,9 @@
   color: "#00897b" # 青色/蓝绿色 (区分于纯软件，带有工程感)
   url: "https://iccad.com/"
 
-"CVPRW":
-  color: "#64b5f6" # 浅蓝色 (与 CVPR 同色系但略浅，表示 Workshop)
-  url: "https://cvpr.thecvf.com/"
+"ACL":
+  color: "#3f51b5" # 靛蓝色 (兼具逻辑的理性和语言的深邃，NLP领域的经典色)
+  url: "https://www.aclweb.org/"
 
 "arXiv":
   color: "#b31b1b" # 康奈尔红 (这是 arXiv 官方标志性的经典红色)
