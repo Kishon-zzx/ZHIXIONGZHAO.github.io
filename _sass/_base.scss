@@ -457,7 +457,7 @@ ul.task-list input[type="checkbox"] {
     flex: 0 0 auto;
     line-height: normal;   // 不要 0
     font-size: 16px;       // 不要 initial，防止继承异常
-    min-width: 260px;
+    min-width: 400px;
     overflow: visible;
     transform: none;       // 先禁用缩放排查
   }
