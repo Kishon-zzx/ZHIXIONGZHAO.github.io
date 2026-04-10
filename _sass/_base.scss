@@ -451,24 +451,23 @@ ul.task-list input[type="checkbox"] {
   gap: 1.5rem;
   text-align: left;
 
-  .contact-icons {
-    flex: 0 0 auto;
-  }
+  .contact-icons { flex: 0 0 auto; }
 
   .map-widget {
     flex: 0 0 auto;
-    display: block;
-    line-height: 0;
-    font-size: initial;
-    min-width: 200px;
+    line-height: normal;   // 不要 0
+    font-size: 16px;       // 不要 initial，防止继承异常
+    min-width: 260px;
+    overflow: visible;
+    transform: none;       // 先禁用缩放排查
+  }
 
-    img,
-    canvas,
-    iframe {
-      display: block;
-      max-width: 100%;
-      height: auto;
-    }
+  /* 关键：不要给 map 内部元素强行 height:auto */
+  .map-widget img,
+  .map-widget canvas,
+  .map-widget iframe {
+    max-width: none;
+    height: unset;
   }
 
   .contact-note {
