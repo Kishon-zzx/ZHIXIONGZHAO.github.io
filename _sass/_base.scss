@@ -441,6 +441,32 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Social with map layout (bottom of about page)
+
+.social.social-with-map {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  text-align: left;
+
+  .contact-icons {
+    flex: 0 0 auto;
+  }
+
+  .map-widget {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-note {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
+
 // Social (top - in header)
 .social-small {
   .contact-icons {
