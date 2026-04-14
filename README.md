@@ -333,6 +333,20 @@ For more details on how to create distill-styled posts using `<d-*>` tags, pleas
 
 **al-folio** supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes). Also supports [chartjs charts](https://www.chartjs.org/), [mermaid diagrams](https://mermaid-js.github.io/mermaid/#/), and [TikZ figures](https://tikzjax.com/).
 
+If you want to draw a single horizontal end-to-end pipeline (e.g., connect **Video2World** and **World2Action** with clear arrows and tensor shapes), use Mermaid `flowchart LR`:
+
+```mermaid
+flowchart LR
+    A["Obs<br/>(B,V,C,H,W), text, state"] --> B["Preprocess / Pack<br/>(data_batch)"]
+    B --> C["Video2World Conditioner<br/>text: (B,L_txt,D_txt)<br/>video/mask: (B,C,T,H,W)"]
+    C --> D["Video DiT<br/>x: (B,C,T,H,W)<br/>mask: (B,1,T,H,W)<br/>concat: (B,C+1,T,H,W)"]
+    D --> E["Video Context<br/>(B,N_v,D_v)"]
+    E --> F["Prefix Assembly<br/>ctx: (B,N_ctx,D_model)"]
+    F --> G["World2Action DiT<br/>x_a: (B,H_act,D_act)"]
+    G --> H["Flow-Matching Steps K<br/>pred/update: (B,H_act,D_act)"]
+    H --> I["Executable Actions<br/>(B,n_exec,D_act)"]
+```
+
 <p align="center">
 <a href="https://alshedivat.github.io/al-folio/blog/2015/math/" target="_blank"><img src="readme_preview/math.png" width=400></a>
 <a href="https://alshedivat.github.io/al-folio/blog/2015/code/" target="_blank"><img src="readme_preview/code.png" width=400></a>
