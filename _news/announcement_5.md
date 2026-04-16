@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our papers [BWLA]() (*Main Conference*) and [MoBiE](https://arxiv.org/abs/2604.06798) (*Findings*) are accepted by **ACL 2026**. 🎉🎉🎉
+Our papers [BWLA]() (*Main Conference*) is accepted by **ACL 2026**. 🎉🎉🎉

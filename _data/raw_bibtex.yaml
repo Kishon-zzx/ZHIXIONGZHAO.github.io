@@ -1,14 +1,3 @@
-zhao2026mobie: |
-  @misc{zhao2026mobieefficientinferencemixture,
-      title={MoBiE: Efficient Inference of Mixture of Binary Experts under Post-Training Quantization}, 
-      author={Zhixiong Zhao and Zukang Xu and Zhixuan Chen and Dawei Yang},
-      year={2026},
-      eprint={2604.06798},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2604.06798}, 
-  }
-
 xu2026kbvqmoe: |
   @article{xu2026kbvq,
     title={KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models},
