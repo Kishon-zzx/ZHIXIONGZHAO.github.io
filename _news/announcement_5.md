@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our papers [BWLA]() (*Main Conference*) is accepted by **ACL 2026**. 🎉🎉🎉
+Our paper [BWLA]() (*Main Conference*) is accepted by **ACL 2026**. 🎉🎉🎉
