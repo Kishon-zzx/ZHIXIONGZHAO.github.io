@@ -1,3 +1,14 @@
+zhao2026bwla: |
+  @misc{zhao2026bwlabreakingbarrierw1ax,
+      title={BWLA: Breaking the Barrier of W1AX Post-Training Quantization for LLMs}, 
+      author={Zhixiong Zhao and Zukang Xu and Dawei Yang},
+      year={2026},
+      eprint={2605.00422},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.00422}, 
+  }
+
 xu2026kbvqmoe: |
   @article{xu2026kbvq,
     title={KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models},
